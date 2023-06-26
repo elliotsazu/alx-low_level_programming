@@ -1,5 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <studio.h>
+/**
+ 
+  */
 int main(void)
 {
 	int n;
