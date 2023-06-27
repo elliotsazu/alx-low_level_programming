@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints tha alphabet 
- * in lower case and 
+ * main - prints tha alphabet
+ * in lower case and
  * Return:vAlways  0 (success)
  */
 
