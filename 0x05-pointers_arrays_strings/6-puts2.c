@@ -3,6 +3,7 @@
 /**
  * main - prints one char out of 2 strings
  * followed by a new line using puts2
+ * @str: string to print the chars from
  */
 void puts2(char *str)
 {
@@ -17,8 +18,8 @@ void puts2(char *str)
 
 	for (i = 0; i < len; i += 2)
 	{
-		_putchar(str[i]);
+		putchar (str[i]);
 	}
 
-	_putchar('\n');
+	putchar ('\n');
 }
