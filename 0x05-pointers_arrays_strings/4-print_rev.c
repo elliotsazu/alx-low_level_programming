@@ -2,7 +2,7 @@
 
 /**
  * print_rev -  prints string in reverse, followed by a new line
- * @s: function to be printed 
+ * @s: function to be printed
  */
 void print_rev(char *s)
 {
@@ -17,7 +17,7 @@ void print_rev(char *s)
 
 	len = i;
 
-	for (j = len -1; j >= 0; j--)
+	for (j = len - 1; j >= 0; j--)
 	{
 		putchar(s[j]);
 	}
