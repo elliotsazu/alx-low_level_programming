@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints one char out of 2 strings
+ * puts2 - prints one char out of 2 strings
  * followed by a new line using puts2
  * @str: string to print the chars from
  */
