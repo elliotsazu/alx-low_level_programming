@@ -2,6 +2,7 @@
 
 /**
  * main - a function tha prints a string
+ * @str: function parameter
  * followed by a new line 
  */
 void _puts(char *str)
@@ -10,7 +11,7 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		_putchar (str[i]);
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
